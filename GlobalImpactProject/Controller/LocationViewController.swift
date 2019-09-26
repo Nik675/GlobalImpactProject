@@ -6,12 +6,11 @@
 //  Copyright © 2019 CTEC. All rights reserved.
 //
 
-import MapKit
 import UIKit
 
-class ViewController: UIViewController {
+class LocationViewController: UIViewController {
 
-    override func viewDidLoad() -> Void {
+    override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
