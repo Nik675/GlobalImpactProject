@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07155BE4233D447E007C3FB6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07155BE3233D447E007C3FB6 /* Default-568h@2x.png */; };
-		07155BE6233D45C6007C3FB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07155BE5233D45C6007C3FB6 /* ViewController.swift */; };
-		07FB596F2335617200BE0CB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FB596E2335617200BE0CB1 /* AppDelegate.swift */; };
-		07FB59712335617200BE0CB1 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FB59702335617200BE0CB1 /* AboutViewController.swift */; };
-		07FB59742335617200BE0CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FB59722335617200BE0CB1 /* Main.storyboard */; };
-		07FB59762335617500BE0CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FB59752335617500BE0CB1 /* Assets.xcassets */; };
-		07FB59792335617500BE0CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FB59772335617500BE0CB1 /* LaunchScreen.storyboard */; };
+		3B22517C233D45C70056E223 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B22517B233D45C70056E223 /* LocationViewController.swift */; };
+		3BE4CFCA2335618400E3234D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE4CFC92335618400E3234D /* AppDelegate.swift */; };
+		3BE4CFCC2335618400E3234D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE4CFCB2335618400E3234D /* AboutViewController.swift */; };
+		3BE4CFCF2335618400E3234D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE4CFCD2335618400E3234D /* Main.storyboard */; };
+		3BE4CFD12335618C00E3234D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE4CFD02335618C00E3234D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		07155BE3233D447E007C3FB6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		07155BE5233D45C6007C3FB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		07FB596B2335617200BE0CB1 /* GlobalImpactProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobalImpactProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		07FB596E2335617200BE0CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07FB59702335617200BE0CB1 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		07FB59732335617200BE0CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		07FB59752335617500BE0CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		07FB59782335617500BE0CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		07FB597A2335617500BE0CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B22517B233D45C70056E223 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		3BE4CFC62335618400E3234D /* Water Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Water Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE4CFC92335618400E3234D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BE4CFCB2335618400E3234D /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		3BE4CFCE2335618400E3234D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BE4CFD02335618C00E3234D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BE4CFD52335618C00E3234D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07FB59682335617200BE0CB1 /* Frameworks */ = {
+		3BE4CFC32335618300E3234D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,98 +35,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07FB59622335617200BE0CB1 = {
+		3BE4CFBD2335618300E3234D = {
 			isa = PBXGroup;
 			children = (
-				07155BE3233D447E007C3FB6 /* Default-568h@2x.png */,
-				07FB596D2335617200BE0CB1 /* GlobalImpactProject */,
-				07FB596C2335617200BE0CB1 /* Products */,
+				3BE4CFC82335618400E3234D /* Water Locator */,
+				3BE4CFC72335618400E3234D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		07FB596C2335617200BE0CB1 /* Products */ = {
+		3BE4CFC72335618400E3234D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07FB596B2335617200BE0CB1 /* GlobalImpactProject.app */,
+				3BE4CFC62335618400E3234D /* Water Locator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		07FB596D2335617200BE0CB1 /* GlobalImpactProject */ = {
+		3BE4CFC82335618400E3234D /* Water Locator */ = {
 			isa = PBXGroup;
 			children = (
-				07FB59812335621700BE0CB1 /* Controller */,
-				07FB59842335629C00BE0CB1 /* View */,
-				07FB5980233561E600BE0CB1 /* Resources */,
+				3BE4CFDF2335624500E3234D /* Controller */,
+				3BE4CFDE2335623300E3234D /* Resources */,
+				3BE4CFDD2335622700E3234D /* View */,
 			);
-			path = GlobalImpactProject;
+			path = "Water Locator";
 			sourceTree = "<group>";
 		};
-		07FB5980233561E600BE0CB1 /* Resources */ = {
+		3BE4CFDD2335622700E3234D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				07FB596E2335617200BE0CB1 /* AppDelegate.swift */,
-				07FB59752335617500BE0CB1 /* Assets.xcassets */,
-				07FB597A2335617500BE0CB1 /* Info.plist */,
+				3BE4CFCD2335618400E3234D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BE4CFDE2335623300E3234D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3BE4CFD52335618C00E3234D /* Info.plist */,
+				3BE4CFD02335618C00E3234D /* Assets.xcassets */,
+				3BE4CFC92335618400E3234D /* AppDelegate.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		07FB59812335621700BE0CB1 /* Controller */ = {
+		3BE4CFDF2335624500E3234D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				07155BE5233D45C6007C3FB6 /* ViewController.swift */,
-				07FB59702335617200BE0CB1 /* AboutViewController.swift */,
+				3BE4CFCB2335618400E3234D /* AboutViewController.swift */,
+				3B22517B233D45C70056E223 /* LocationViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		07FB59842335629C00BE0CB1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				07FB59772335617500BE0CB1 /* LaunchScreen.storyboard */,
-				07FB59722335617200BE0CB1 /* Main.storyboard */,
-			);
-			name = View;
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		07FB596A2335617200BE0CB1 /* GlobalImpactProject */ = {
+		3BE4CFC52335618300E3234D /* Water Locator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07FB597D2335617500BE0CB1 /* Build configuration list for PBXNativeTarget "GlobalImpactProject" */;
+			buildConfigurationList = 3BE4CFD82335618C00E3234D /* Build configuration list for PBXNativeTarget "Water Locator" */;
 			buildPhases = (
-				07FB59672335617200BE0CB1 /* Sources */,
-				07FB59682335617200BE0CB1 /* Frameworks */,
-				07FB59692335617200BE0CB1 /* Resources */,
+				3BE4CFC22335618300E3234D /* Sources */,
+				3BE4CFC32335618300E3234D /* Frameworks */,
+				3BE4CFC42335618300E3234D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GlobalImpactProject;
-			productName = GlobalImpactProject;
-			productReference = 07FB596B2335617200BE0CB1 /* GlobalImpactProject.app */;
+			name = "Water Locator";
+			productName = "Water Locator";
+			productReference = 3BE4CFC62335618400E3234D /* Water Locator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		07FB59632335617200BE0CB1 /* Project object */ = {
+		3BE4CFBE2335618300E3234D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = CTEC;
 				TargetAttributes = {
-					07FB596A2335617200BE0CB1 = {
+					3BE4CFC52335618300E3234D = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = 07FB59662335617200BE0CB1 /* Build configuration list for PBXProject "GlobalImpactProject" */;
+			buildConfigurationList = 3BE4CFC12335618300E3234D /* Build configuration list for PBXProject "Water Locator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,64 +131,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 07FB59622335617200BE0CB1;
-			productRefGroup = 07FB596C2335617200BE0CB1 /* Products */;
+			mainGroup = 3BE4CFBD2335618300E3234D;
+			productRefGroup = 3BE4CFC72335618400E3234D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07FB596A2335617200BE0CB1 /* GlobalImpactProject */,
+				3BE4CFC52335618300E3234D /* Water Locator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		07FB59692335617200BE0CB1 /* Resources */ = {
+		3BE4CFC42335618300E3234D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07FB59792335617500BE0CB1 /* LaunchScreen.storyboard in Resources */,
-				07155BE4233D447E007C3FB6 /* Default-568h@2x.png in Resources */,
-				07FB59762335617500BE0CB1 /* Assets.xcassets in Resources */,
-				07FB59742335617200BE0CB1 /* Main.storyboard in Resources */,
+				3BE4CFD12335618C00E3234D /* Assets.xcassets in Resources */,
+				3BE4CFCF2335618400E3234D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07FB59672335617200BE0CB1 /* Sources */ = {
+		3BE4CFC22335618300E3234D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07155BE6233D45C6007C3FB6 /* ViewController.swift in Sources */,
-				07FB59712335617200BE0CB1 /* AboutViewController.swift in Sources */,
-				07FB596F2335617200BE0CB1 /* AppDelegate.swift in Sources */,
+				3B22517C233D45C70056E223 /* LocationViewController.swift in Sources */,
+				3BE4CFCC2335618400E3234D /* AboutViewController.swift in Sources */,
+				3BE4CFCA2335618400E3234D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		07FB59722335617200BE0CB1 /* Main.storyboard */ = {
+		3BE4CFCD2335618400E3234D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				07FB59732335617200BE0CB1 /* Base */,
+				3BE4CFCE2335618400E3234D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		07FB59772335617500BE0CB1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07FB59782335617500BE0CB1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		07FB597B2335617500BE0CB1 /* Debug */ = {
+		3BE4CFD62335618C00E3234D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,7 +239,7 @@
 			};
 			name = Debug;
 		};
-		07FB597C2335617500BE0CB1 /* Release */ = {
+		3BE4CFD72335618C00E3234D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -311,34 +294,34 @@
 			};
 			name = Release;
 		};
-		07FB597E2335617500BE0CB1 /* Debug */ = {
+		3BE4CFD92335618C00E3234D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GlobalImpactProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Water Locator/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CTEC.GlobalImpactProject;
+				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.Water-Locator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		07FB597F2335617500BE0CB1 /* Release */ = {
+		3BE4CFDA2335618C00E3234D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GlobalImpactProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Water Locator/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CTEC.GlobalImpactProject;
+				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.Water-Locator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -348,25 +331,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07FB59662335617200BE0CB1 /* Build configuration list for PBXProject "GlobalImpactProject" */ = {
+		3BE4CFC12335618300E3234D /* Build configuration list for PBXProject "Water Locator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07FB597B2335617500BE0CB1 /* Debug */,
-				07FB597C2335617500BE0CB1 /* Release */,
+				3BE4CFD62335618C00E3234D /* Debug */,
+				3BE4CFD72335618C00E3234D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07FB597D2335617500BE0CB1 /* Build configuration list for PBXNativeTarget "GlobalImpactProject" */ = {
+		3BE4CFD82335618C00E3234D /* Build configuration list for PBXNativeTarget "Water Locator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07FB597E2335617500BE0CB1 /* Debug */,
-				07FB597F2335617500BE0CB1 /* Release */,
+				3BE4CFD92335618C00E3234D /* Debug */,
+				3BE4CFDA2335618C00E3234D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 07FB59632335617200BE0CB1 /* Project object */;
+	rootObject = 3BE4CFBE2335618300E3234D /* Project object */;
 }
